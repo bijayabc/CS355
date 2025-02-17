@@ -47,7 +47,7 @@ function checkBreed() {
 
     let apiUrl = `https://dog.ceo/api/breed/${breed}/images/random`;
     
-    imageInterval = setInterval(() => showImage(apiUrl), 2000)
+    imageInterval = setInterval(() => showImage(apiUrl), 5000)
 }
 
 button.addEventListener('click', checkBreed)
